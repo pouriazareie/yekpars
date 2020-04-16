@@ -290,6 +290,7 @@ var TopcmmIncludeJs =
         headobj.appendChild(TopcmmIncludeJs.sobj);
         TopcmmIncludeJs.sobj.onreadystatechange = TopcmmIncludeJs.ready;
         TopcmmIncludeJs.sobj.onerror = TopcmmIncludeJs.sobj.onload = TopcmmIncludeJs.callback;
+ ///----------------Start point  code yekpars ------------------------------------------------------
         var curPageName = window.location;
         var y=String(curPageName);
         var x=y.search ( "init_*" ) ;
@@ -298,6 +299,8 @@ var TopcmmIncludeJs =
          window.top.location="http://pars2018.yekparsi.ir:35556/htmlchat/yekparschat.html"
          }else
          {alert("آفرین")}
+ ///----------------End point code yekpars ------------------------------------------------------
+
     },
 
     ready : function()
